@@ -1,0 +1,25 @@
+package id.ac.polbeng.depandi.test_kelas
+
+class PersonE {
+    var firstName : String
+    var lastName : String
+    var age : Int = 25
+    constructor(_firstName : String,_lastname : String ){
+        firstName = _firstName
+        lastName = _lastname
+    }
+    constructor(_firstName: String,_lastName : String,_age : Int) : this (_firstName,_lastName){
+        age = _age
+    }
+    fun cetakInfo(){
+        println("Name : ${firstName} ${lastName}")
+        println("Age : ${age}")
+    }
+}
+
+fun main() {
+    val anton = PersonE("Frank","Lampard")
+    anton.cetakInfo()
+    val budi = PersonE("Budi","Gunawan")
+    budi.cetakInfo()
+}
