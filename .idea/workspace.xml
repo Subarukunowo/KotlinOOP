@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a214085-0bb0-4e13-9e91-e3893c9ae0db" name="Changes" comment="add Greeter.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/InterfaceA.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/InterfaceB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/InterfaceC.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/InterfaceD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/NestedInnerClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/NestedInnerClassA.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/id/ac/polbeng/depandi/test_kelas/NestedInnerClassC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -137,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726553950798</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Greeter.kt">
+      <created>1726907346498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726907346498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

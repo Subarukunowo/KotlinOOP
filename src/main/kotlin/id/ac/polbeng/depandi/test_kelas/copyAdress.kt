@@ -1,11 +1,17 @@
 package id.ac.polbeng.depandi.test_kelas
-
-fun copyAddress(address: Address): Address{
-    var result = Address() // There's no 'new' word in Kotlin
+class Alamat {
+    var name: String = "Holmes, Sherlock"
+    var street: String = "Baker"
+    var city: String = "London"
+    var state: String? = null
+    var zip: String = "123456"
+}
+fun copyAddress(address: Address): Alamat {
+    var result = Alamat() // There's no 'new' word in Kotlin
     result.name = address.name //accessor are called
     result.street = address.street
     //...
     return result
-
+    println(result)
 
 }
