@@ -6,12 +6,12 @@ class Alamat {
     var state: String? = null
     var zip: String = "123456"
 }
-fun copyAddress(address: Address): Alamat {
+fun copyAlamat(address: Alamat): Alamat {
     var result = Alamat() // There's no 'new' word in Kotlin
     result.name = address.name //accessor are called
     result.street = address.street
     //...
     return result
-    println(result)
+
 
 }
